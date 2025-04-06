@@ -5,11 +5,12 @@ import "./App.css";
 import UseEffectExample from "./components/State/effect/UseEffectExample";
 import GitHubUsers from "./components/State/effect/GitHubUsers";
 import Timer from "./components/State/effect/Timer";
+import Home from "./components/State/home/home";
 
 function App() {
   return (
     <>
-      <Timer />
+      <Home />
     </>
   );
 }
